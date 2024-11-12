@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.vitor.aora"
     },
     "android": {
       "adaptiveIcon": {
@@ -29,23 +30,33 @@
     "plugins": [
       "expo-router",
       [
-      "expo-font", {
-        "fonts": [
-          "./assets/fonts/Poppins-Black.ttf",
-          "./assets/fonts/Poppins-Bold.ttf",
-          "./assets/fonts/Poppins-ExtraBold.ttf",
-          "./assets/fonts/Poppins-ExtraLight.ttf",
-          "./assets/fonts/Poppins-Light.ttf",
-          "./assets/fonts/Poppins-Medium.ttf",
-          "./assets/fonts/Poppins-Regular.ttf",
-          "./assets/fonts/Poppins-SemiBold.ttf",
-          "./assets/fonts/Poppins-Thin.ttf"
-        ]
-      }
-    ]
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Poppins-Black.ttf",
+            "./assets/fonts/Poppins-Bold.ttf",
+            "./assets/fonts/Poppins-ExtraBold.ttf",
+            "./assets/fonts/Poppins-ExtraLight.ttf",
+            "./assets/fonts/Poppins-Light.ttf",
+            "./assets/fonts/Poppins-Medium.ttf",
+            "./assets/fonts/Poppins-Regular.ttf",
+            "./assets/fonts/Poppins-SemiBold.ttf",
+            "./assets/fonts/Poppins-Thin.ttf"
+          ]
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ebcc0a61-c3f6-419b-8bbe-a071b3f8e3d8"
+      }
+    },
+    "owner": "vitorsalmeida"
   }
 }
